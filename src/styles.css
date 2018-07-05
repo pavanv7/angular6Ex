@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.nomargin{
+	margin: 0 !important;
+}
+footer .footer-copyright {
+	overflow: hidden;
+	min-height: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 10px 15px;
+	color: rgba(255,255,255,0.8);
+	background-color: rgba(51,51,51,0.8);
+}
+.home_tabs{
+	padding: 15px 0;
+}
+.home_tabs mat-tab-body{
+	padding: 10px 0;
+}
+.home_tabs .single_imgcard{
+	padding: 15px;
+}
